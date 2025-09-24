@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+}
+/* HEAD */
+.head {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: ;
+}
+.head img {
+  width: 40px;
+  height: 40px;
+}
+.right img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.right p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0;
+  font-weight: 500;
+  height: 20px;
+}
+.right {
+  display: flex;
+  gap: 30px;
+}
+.right input {
+  background-color: rgb(77, 77, 77);
+  color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 20px;
+  width: 400px;
+  padding: 10px 30px;
+  height: 30px;
+}
+/* LIBRARY */
+.songs {
+  background-color: rgb(30, 30, 30);
+  width: 300px;
+  padding: 20px;
+}
+.library {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.row img {
+  width: 40px;
+}
+.library h2 {
+  margin: 0;
+  font-size: 19px;
+}
+.library p {
+  margin: 0;
+  padding: 5px;
+  background-color: rgb(64, 64, 64);
+  border-radius: 20px;
+  width: 70px;
+  text-align: center;
+}
+/* ARTISTS */
+.artist {
+  display: flex;
+  gap: 10px;
+}
+.artist p {
+  padding: 5px;
+  background-color: rgb(64, 64, 64);
+  color: white;
+  border-radius: 20px;
+  font-size: 13px;
+  width: 50px;
+  text-align: center;
+}
+/* PLAYLIST */
+.row {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.row img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+.column h3 {
+  margin: 0;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.column p {
+  margin: 0;
+  font-size: 14px;
+  color: rgb(184, 184, 184);
+}
+.gen {
+  display: flex;
+}
+/* ALL */
+.all {
+  display: flex;
+  gap: 10px;
+}
+.all .p1 {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  width: 40px;
+  text-align: center;
+}
+.all .p2 {
+  background-color: rgb(64, 64, 64);
+  color: rgb(177, 177, 177);
+  padding: 10px;
+  border-radius: 20px;
+  width: 40px;
+  text-align: center;
+}
+/* MAIN */
+.main {
+}
+.music {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+.like img {
+  width: 60px;
+  border-radius: 10px 0px 0px 10px;
+}
+.like p {
+  color: white;
+  background-color: rgb(64, 64, 64);
+  padding: 10px;
+  width: 200px;
+}
+.like .div {
+  display: flex;
+}
+.like {
+  display: flex;
+  background-color: rgb(64, 64, 64);
+  border-radius: 10px;
+}
+.grad {
+  background: linear-gradient(rgba(74, 103, 158, 0.618), rgb(30, 30, 30));
+  padding: 20px 40px;
+}
+/* MADE FOR */
+
+.new p {
+  color: rgb(187, 187, 187);
+  margin: 0;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.new h2 {
+  color: white;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.week {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+.box img {
+  width: 200px;
+  border-radius: 10px;
+}
+.made {
+  padding: 20px 40px;
+  background-color: rgb(30, 30, 30);
+}
+
+/* MIXES */
+.rows img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.mixes {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+.rows p {
+  color: rgb(187, 187, 187);
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 13px;
+}
+.top h2 {
+  color: white;
+  margin: 0;
+}
+.top {
+  background-color: rgb(30, 30, 30);
+  padding: 20px 40px;
+}
