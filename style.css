@@ -216,3 +216,39 @@ body {
   background-color: rgb(30, 30, 30);
   padding: 20px 40px;
 }
+@media screen and (max-width: 500px) {
+  body {
+  }
+  .container {
+    display: flex;
+  }
+  .gen {
+    display: flex;
+    flex-direction: column;
+  }
+  .music {
+    display: flex;
+    flex-direction: column;
+  }
+  .head {
+    display: flex;
+  }
+  .right input {
+    width: auto;
+  }
+  .right p {
+    width: auto;
+  }
+  .right {
+    gap: 5px;
+  }
+  .week {
+    display: flex;
+    flex-direction: column;
+  }
+  .mixes {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
